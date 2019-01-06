@@ -31,15 +31,34 @@ img.coco1{
 	text-align: center;
 }
 /* biographie */
-.title_biographie{
-	text-align: center;
-	margin-bottom: 35px;
-}
 article .biographie{
 	padding: 15px;
 	margin-top: 40px;
 }
-.paragraphe_1, .paragraphe_2{
+article .media{
+	margin-top: 75px;
+	margin-left: 200px;
+	margin-right: 200px;
 	margin-bottom: 75px;
+}
+.bloc_bio p{
+	width: 700px;
+	font-size: 1.1em;
 	text-align: justify;
+}
+.bloc_bio h2{
+	text-align: center;
+	margin-bottom: 15px;
+}
+/* footer */
+footer{
+	background: #444444
+}
+footer ul{
+	margin: 20px;
+	list-style-type: none;
+}
+footer a{
+	color: white;
+	font-weight: bold;
 }
